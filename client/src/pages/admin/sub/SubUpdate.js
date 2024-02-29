@@ -5,9 +5,11 @@ import { useSelector } from "react-redux";
 import { getCategories } from "../../../functions/category";
 import { updateSub, getSub } from "../../../functions/sub";
 import { Link } from "react-router-dom";
+import { Option } from "antd/lib/mentions";
 import { EditOutlined, DeleteOutlined } from "@ant-design/icons";
 import CategoryForm from "../../../components/forms/CategoryForm";
 import LocalSearch from "../../../components/forms/LocalSearch";
+import { Select } from "antd";
 
 const SubUpdate = ({ match, history }) => {
   const { user } = useSelector((state) => ({ ...state }));
@@ -51,7 +53,7 @@ const SubUpdate = ({ match, history }) => {
   };
 
   return (
-    <div className="container-fluid">
+    <div className="adminproducts container-fluid">
       <div className="row">
         <div className="col-md-2">
           <AdminNav />
@@ -60,24 +62,24 @@ const SubUpdate = ({ match, history }) => {
           {loading ? (
             <h4 className="text-danger">Loading..</h4>
           ) : (
-            <h4>Update sub category</h4>
+            <h4 className="text-center text mt-3">Update sub category</h4>
           )}
 
           <div className="form-group">
-            <label>Parent category</label>
-            <select
+            <label className="text text-center mt-3">Parent category</label>
+            <Select
               name="category"
               className="form-control"
               onChange={(e) => setParent(e.target.value)}
             >
-              <option>Please select</option>
+              <Option>Please select</Option>
               {categories.length > 0 &&
                 categories.map((c) => (
-                  <option key={c._id} value={c._id} selected={c._id === parent}>
+                  <Option key={c._id} value={c._id} selected={c._id === parent}>
                     {c.name}
-                  </option>
+                  </Option>
                 ))}
-            </select>
+            </Select>
           </div>
 
           <CategoryForm

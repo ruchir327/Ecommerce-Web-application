@@ -160,19 +160,28 @@ input:focus {
 
 
 
+#light .register {
+  background-color: #ffffff;
+  height: 90vh; /* Make sure it takes the full viewport height */
+  display: flex;
+  margin-left: 2rem;
+  justify-content: center;
+  align-items: center; /* These flex properties center the child content */
 
+}
 
 #dark .register {
   background-color: #0c1672 ; /* or any other adjustments for light mode */
-  height: 120vh; /* Make sure it takes the full viewport height */
+  height: 95vh; /* Make sure it takes the full viewport height */
   display: flex;
+  margin-left: 2rem;
   justify-content: center;
   align-items: center; /* These flex properties center the child content */
 }
 
 /* Adjust the login card positioning */
 #dark .register .card-container {
-  margin-top: 14rem; 
+  margin-top: 11rem; 
   background: #f3ebf6; /* Assuming you want a light background for the card */
   padding-top: 1rem;
   padding-left: 2rem;

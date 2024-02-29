@@ -67,7 +67,7 @@ const CreateCouponPage = () => {
           {loading ? (
             <h4 className="text-danger">Loading...</h4>
           ) : (
-            <h4 className="text">Coupon</h4>
+            <h4 className="text text-center mt-3">Coupon</h4>
           )}
 
           <form onSubmit={handleSubmit}>
