@@ -1,0 +1,16 @@
+
+
+
+  #light.login {
+    background-color: #fff;
+  }
+  
+  .App {
+    font-family: "Ubuntu", sans-serif;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }

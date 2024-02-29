@@ -1,0 +1,598 @@
+
+.App {
+  font-family: "Ubuntu", sans-serif;
+  width: 100vw;
+  height:max-content;
+
+  flex-direction: column;
+}
+.slider img,
+.card-image {
+  height: 450px;
+  object-fit:contain;
+  background: #fff;
+}
+
+.pointer {
+  cursor: pointer;
+  
+}
+
+#dark {
+  background-color: #000;
+}
+
+#light {
+  background-color: #fff;
+}
+
+@media (max-width: 700px) {
+  .hideOnMobile {
+    display: none; /* Hide the menu icon for window sizes less than or equal to 700px */
+  }
+}
+
+@media (min-width: 701px) {
+  .menuicon {
+    display: none; /* Hide elements with the hideOnMobile class for window sizes greater than 700px */
+  }
+}
+input-wrapper {
+  width: 100%;
+  height: 2.5rem;
+  border: none;
+  border-radius: 10px;
+  padding: 0 15px;
+  box-shadow: 0px 0px 8px #dddddda7;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  border: none;
+  height: 100%;
+  font-size: 1.25rem;
+  width: 100%;
+  margin-left: 5px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.902); */
+
+}
+.ant-input {
+  padding: 100rem;
+  height: 40px;
+}
+
+.ant-btn {
+  margin-top: 10px !important;
+}
+
+
+input:focus {
+  outline: none;
+}
+
+#search-icon {
+  color: royalblue;
+
+}
+
+
+
+
+
+
+
+#light .signup {
+  background-color: #ffffff;
+  height: 95vh; /* Make sure it takes the full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* These flex properties center the child content */
+
+}
+
+#light .signup .card-container {
+  margin-top: -10rem; /* Pushes the card down a bit inside the .login container */
+  background: #fff; /* Assuming you want a light background for the card */
+  padding: 2rem;
+  margin-left: 1rem;
+
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.902);
+ 
+}
+
+
+
+
+#dark .signup {
+  background-color:  #0c1672; /* or any other adjustments for light mode */
+  height: 95vh; /* Make sure it takes the full viewport height */
+  display: flex;
+
+  justify-content: center;
+  align-items: center; /* These flex properties center the child content */
+}
+
+/* Adjust the login card positioning */
+#dark .signup .card-container {
+  margin-top: -10rem; /* Pushes the card down a bit inside the .login container */
+  background: #f3ebf6; /* Assuming you want a light background for the card */
+  padding: 2rem;
+  margin-left: 1rem;
+
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.902);
+ 
+}
+
+
+
+/* ModalStyles.css */
+ .modalWrapper {
+  background-color: #f3ebf6 !important;
+}
+
+
+
+/* ModalStyles.css */
+ .customModal .ant-modal-body {
+  margin-bottom: -200px;
+  background-color: #f3ebf6 !important;
+}
+
+
+
+
+
+ .modalTitle {
+  display: block;
+  padding-top: 18px;
+  margin-top: -16px;
+  margin-bottom: -20px;
+  margin-left: -25px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  background-color: #f3ebf6;
+  width: 110.3%;
+}
+
+
+
+
+
+#dark .register {
+  background-color: #0c1672 ; /* or any other adjustments for light mode */
+  height: 120vh; /* Make sure it takes the full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* These flex properties center the child content */
+}
+
+/* Adjust the login card positioning */
+#dark .register .card-container {
+  margin-top: 14rem; 
+  background: #f3ebf6; /* Assuming you want a light background for the card */
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+margin-bottom: 20.3rem;  
+width: 40rem;
+  height: 35vh;
+  border-radius: 0.5rem;
+  margin-left: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.902);
+ 
+}
+#light .register .card-container {
+  margin-top: -7rem; 
+  background: #fff; /* Assuming you want a light background for the card */
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  width: 40rem;
+  height: 35vh;
+  border-radius: 0.5rem;
+  margin-left: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.902);
+ 
+}
+
+#dark .card {
+  background: #f3ebf6;
+  /* height: 100vh; */
+}
+
+#light .card {
+  background: #fff;
+}
+
+ #dark .ant-modal-title {
+  background: #430d57 !important;
+
+}
+
+#light .ant-modal-content {
+  background: #fff ;
+
+} */
+
+#light .register {
+  background-color: #ffffff ;
+  height: 95vh; /* Make sure it takes the full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* These flex properties center the child content */
+}
+#dark {
+  background-color: #0c1672;
+}
+#light {
+  background-color: #fff;
+}
+#dark .home {
+  background-color: #0c1672;
+}
+
+#light .home {
+  background-color: #ffffff;
+}
+
+#dark .jumbo {
+  background-color: rgba(0, 90, 128, 0.301) !important
+}
+
+#light .jumbo {
+  background-color:rgba(128, 128, 128, 0.223) !important;
+}
+
+#dark .text {
+  color: #fff !important;
+}
+
+#light .text {
+  color: #000  ;
+ }
+ 
+
+
+#dark .product {
+  background-color: #0c1672;
+}
+
+#light .product {
+  background-color: #ffffff;
+}
+
+
+#dark .shop {
+  background-color: #0c1672;
+  height: 95vh;
+}
+
+#light .shop {
+  background-color: #ffffff;
+}
+
+
+#dark .shop .card-container {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.902);
+ 
+}
+
+
+
+#light .shop .card-container {
+
+  padding-bottom: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.902);
+ 
+}
+
+#dark .slider {
+  margin-top: rem;
+  background-color: #0c1672;
+}
+
+/* .ant-menu {
+  background-color: rgb(255, 0, 0);
+} */
+
+#dark .slide {
+  background-color: #0c1672;
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.5rem;
+}
+
+#dark .price {
+  background-color: #0c1672;
+  margin-right: -0.1rem;
+  /* margin-top: -0.5rem; */
+
+  padding-top: 0.1rem;
+  padding-bottom: 0.2rem;
+  box-shadow: 0 4px 8px rgb(0, 0, 0);
+
+}
+
+
+#dark .categories {
+  background-color: #0c1672;
+  margin-top: -1.2rem;
+  margin-right: -0.1rem;
+  margin-bottom: 1rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.2rem;
+  box-shadow: 0 4px 8px rgb(0, 0, 0);
+
+}
+
+#dark .rating {
+  margin-top: -1.2rem;
+
+  background-color: #0c1672;
+  margin-right: -0.1rem;
+  margin-bottom: 1rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.2rem;
+  box-shadow: 0 4px 8px rgb(0, 0, 0);
+
+}
+
+#dark .sub {
+  margin-top: -1.2rem;
+
+  background-color: #0c1672;
+  margin-right: -0.1rem;
+  margin-bottom: 1rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.902);
+
+}
+
+#dark .brands {
+  margin-top: -1.2rem;
+
+  background-color: #0c1672;
+  margin-right: -0.1rem;
+  margin-bottom: 1rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.2rem;
+  box-shadow: 0 4px 8px rgb(0, 0, 0);
+
+}
+
+
+#dark .colors {
+  margin-top: -1.2rem;
+
+  background-color: #0c1672;
+  margin-right: -0.1rem;
+  margin-bottom: 1rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.902);
+
+}
+
+#dark .shipping {
+  margin-top: -1.2rem;
+
+  background-color: #0c1672;
+  margin-right: -0.1rem;
+  /* margin-bottom: 1rem; */
+  padding-top: 0.1rem;
+  padding-bottom: -1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.33);
+
+}
+
+#dark .cart {
+  background-color: #0c1672;
+  height: 100vh;
+
+
+}
+.bg-white {
+  background-color: white;
+}
+
+
+#light .cart {
+  background-color: #fff;
+
+}
+
+#dark .table {
+  background: #f3ebf6;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.797);
+
+}
+
+#dark .table-row {
+  background-color: #0c1672;
+}
+
+#dark .checkout1 {
+  background-color: #0c1672;
+  height: 100%;
+
+}
+#dark .checkout2 {
+  background-color: #0c1672 !important;
+  height: 130vh
+
+}
+
+#light .checkout {
+  background-color: #fff;
+
+  
+}
+
+
+
+
+
+#dark .ant-card-body {
+  /* margin-top: -10px; */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.797) !important;  */
+  /* box-shadow: 2px 4px 10px 0 rgba(0, 0, 0, 0.797) !important; */
+
+   /* margin-right: -1px; */
+   background: #d7c6dd
+   !important; 
+
+ } 
+
+#light .ant-card-body {
+  /* margin-top: -10px; */
+  /* box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.797) !important; */
+
+  padding-right: -4px;
+  background-color: #fff ; 
+
+}
+
+
+
+
+#dark .ant-card-head-title {
+  background-color:#f3ebf6;
+  /* padding-left: -10rem; */
+  padding-right: -10rem;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+
+}
+#light .ant-card-head-title {
+  background-color:#fff;
+  /* padding-left: -10rem; */
+  padding-right: 10rem;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+
+}
+ 
+
+ #dark .ant-card-body { 
+  background: #f3ebf6 !important;
+  margin-top: -10px;
+  box-shadow: 2px 4px 10px 0 rgba(0, 0, 0, 0.797) ;
+
+ } 
+
+ #light .ant-card-body {
+  background: #fff !important;
+  margin-top: -13px ;
+
+
+} 
+
+#dark .ant-card-actions {
+  background: #f3ebf6 !important;
+  margin-top: -13px ;
+
+
+} 
+
+#light .ant-card-actions {
+  background-color: #fff !important;
+  margin-top: -13px;
+
+
+}
+
+
+
+#light .ant-card-bordered {
+  box-shadow: 2px 4px 10px 0 rgb(0, 0, 0) !important;
+}
+
+
+#dark .ant-card-bordered {
+  box-shadow: 2px 4px 10px 0 rgba(0, 0, 0) !important;
+}
+
+
+
+/* Hide all accordion content by default */
+.accordion-content {
+  display: none;
+}
+
+/* Style accordion titles */
+.accordion-title {
+  cursor: pointer;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style active accordion titles */
+.accordion-title.active {
+  background-color: #ddd;
+}
+
+/* Show accordion content when title is clicked */
+.accordion-title.active + .accordion-content {
+  display: block;
+}
+
+#dark .payment {
+  background-color: #0c1672 !important;
+  height: 95vh
+
+}
+
+
+#dark .subcategories {
+  background-color: #0c1672 ;
+margin-top: 0rem;
+  height: 95vh
+
+}
+
+#light .subcategories {
+  background-color: #fff ;
+
+}
+
+
+#dark .products {
+  background: #f3ebf6 !important;
+
+
+}
+
+
+#light .products {
+  background-color: rgba(128, 128, 128, 0.34);
+
+
+}
+
+#dark .history {
+  background: #f3ebf6 !important;
+
+}
+
+
+#light .history {
+  background: #fff !important;
+
+}
+
+
+#dark .adminproducts {
+  background-color: #0c1672 !important;
+height: 96vh;}
+
+#light .adminproducts {
+  background: #fff ;
+}

@@ -1,0 +1,30 @@
+server setup
+packages installed
+ express(server),body-parser(parse json data as js),mongoose(to connect with db), cors(communicate cleint port(3000) with server(8000)),morgan (print url on terminal),express jwt(verify json web token received from firebase from client side),firebase-admin(to communicate with firebase),nodemon(to monitor changes to server without having to restart server),dotenv(store values for variables)
+
+routes setup
+set up all required endpoints for our application using ExpressJS framework method express.router
+setup router methods to access endpoints
+
+server and routes setup
+import packages (express,body parser,morgan,mongoose,cors,dotenv)
+import routes
+create an instance of express server and use mongoose to connect with db
+setup middlewares like cors,bodyparser and morgan
+setup routes middlewares using readdirectorysync which allows us to import all the route files without  having to import them individually and setup port number
+run the app by listening on this port
+
+Controller setup
+create a controller file which handles the routes file and dsipatch it to routes file
+
+Schema setup
+create user schema which defines the details that a user will have like email,cart etc.
+
+firebase setup
+agenda is to use firebase admin tool to get the user token from frontend,verify the token and save the user in db
+Generate key from service accounts option from firebase and use it in config
+We have used a middleware which checks for token received in headers and uses admin's auth method which will compare the users info and info saved in firebase before sending the request to create or user
+After receving the token from frontend(using axios) we will setup initialize app which will use the initialize method and takes the service account info which is the users info received from firebase and export as admin
+
+current user
+Get the currently logged in user 
