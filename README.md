@@ -1,0 +1,25 @@
+<img width="1792" alt="Screenshot 2024-02-28 at 10 00 06 PM" src="https://github.com/ruchir327/Ecommerce-web-application/assets/72577490/eef1893c-c1c2-4bd5-9b7a-c3981b7afe8d">
+
+<img width="1792" alt="Screenshot 2024-02-28 at 9 58 32 PM" src="https://github.com/ruchir327/Ecommerce-web-application/assets/72577490/34dee841-bc40-40ab-81fa-d3328869064a">
+<img width="1792" alt="Screenshot 2024-02-28 at 9 58 06 PM" src="https://github.com/ruchir327/Ecommerce-web-application/assets/72577490/5e7ad708-a267-4a12-beac-a7f9299bdd54">
+<img width="1792" alt="Screenshot 2024-02-28 at 9 57 08 PM" src="https://github.com/ruchir327/Ecommerce-web-application/assets/72577490/1158413d-c9b2-4bda-bf5e-2718f844951c">
+<img width="1792" alt="Screenshot 2024-02-28 at 9 57 01 PM" src="https://github.com/ruchir327/Ecommerce-web-application/assets/72577490/b3eca633-3103-4faf-a92f-3bab94f4dcce">
+<img width="1792" alt="Screenshot 2024-02-28 at 9 56 52 PM" src="https://github.com/ruchir327/Ecommerce-web-application/assets/72577490/f0ab3e8c-08cb-43ba-9782-91d25711a848">
+<img width="1792" alt="Screenshot 2024-02-28 at 9 56 08 PM" src="https://github.com/ruchir327/Ecommerce-web-application/assets/72577490/7c64a7cd-93f9-4e7d-a778-b40678db6733">
+<img width="1792" alt="Screenshot 2024-02-28 at 9 55 53 PM" src="https://github.com/ruchir327/Ecommerce-web-application/assets/72577490/772a7f87-d6c4-4ab4-86c7-6d3dd7b17281">
+<img width="1792" alt="Screenshot 2024-02-28 at 9 55 39 PM" src="https://github.com/ruchir327/Ecommerce-web-application/assets/72577490/aed9007e-29e9-4152-b039-9411d7762341">
+<img width="1792" alt="Screenshot 2024-02-28 at 9 55 31 PM" src="https://github.com/ruchir327/Ecommerce-web-application/assets/72577490/8a29a55a-ccf6-4b83-b8e4-26d56889a8bd">
+<img width="1792" alt="Screenshot 2024-02-28 at 9 55 19 PM" src="https://github.com/ruchir327/Ecommerce-web-application/assets/72577490/3bdb43d6-b676-41a3-848c-cc9000a6f844">
+<img width="1792" alt="Screenshot 2024-02-28 at 9 55 08 PM" src="https://github.com/ruchir327/Ecommerce-web-application/assets/72577490/ab7d4c6b-b6d2-49cd-b632-18bc59fda6e5">
+<img width="1792" alt="Screenshot 2024-02-28 at 9 54 58 PM" src="https://github.com/ruchir327/Ecommerce-web-application/assets/72577490/c8b578f7-ff1e-4b67-9d81-b0d86a237357">
+<img width="1792" alt="Screenshot 2024-02-28 at 9 54 50 PM" src="https://github.com/ruchir327/Ecommerce-web-application/assets/72577490/f64697f9-405e-4820-a6a5-6d07f565aab6">
+<img width="1792" alt="Screenshot 2024-02-28 at 9 54 44 PM" src="https://github.com/ruchir327/Ecommerce-web-application/assets/72577490/2492cf66-b73b-4ab9-9959-036aae4529d3">
+<img width="1792" alt="Screenshot 2024-02-28 at 9 54 21 PM" src="https://github.com/ruchir327/Ecommerce-web-application/assets/72577490/7db7cb62-56f0-4f89-931f-7f3610fe0f3c">
+<img width="1792" alt="Screenshot 2024-02-28 at 9 53 57 PM" src="https://github.com/ruchir327/Ecommerce-web-application/assets/72577490/1b9dbe70-716e-4d2a-ac41-b0866ba8524b">
+<img width="1792" alt="Screenshot 2024-02-28 at 9 53 50 PM" src="https://github.com/ruchir327/Ecommerce-web-application/assets/72577490/2952e643-833b-49d4-aef8-721994c028ae">
+<img width="1792" alt="Screenshot 2024-02-28 at 9 53 42 PM" src="https://github.com/ruchir327/Ecommerce-web-application/assets/72577490/08534f19-2d76-496c-9863-9965c50c16aa">
+<img width="1792" alt="Screenshot 2024-02-28 at 9 53 34 PM" src="https://github.com/ruchir327/Ecommerce-web-application/assets/72577490/e93ffca3-2060-40e9-996a-5cf5815fad85">
+<img width="1792" alt="Screenshot 2024-02-28 at 9 53 27 PM" src="https://github.com/ruchir327/Ecommerce-web-application/assets/72577490/fb7e7040-6d90-4815-92c4-34301cba7f0f">
+<img width="1792" alt="Screenshot 2024-02-28 at 9 53 17 PM" src="https://github.com/ruchir327/Ecommerce-web-application/assets/72577490/da6bc103-79d9-43bf-9694-c2b3eeca4027">
+<img width="1792" alt="Screenshot 2024-02-28 at 9 53 04 PM" src="https://github.com/ruchir327/Ecommerce-web-application/assets/72577490/57a32749-3d64-43de-8305-8059d44bd396">
+<img width="1792" alt="Screenshot 2024-02-28 at 9 52 55 PM" src="https://github.com/ruchir327/Ecommerce-web-application/assets/72577490/c6b83ff2-f209-4f47-9561-71a109b373e3">
